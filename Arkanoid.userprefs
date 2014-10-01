@@ -1,9 +1,15 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/BallScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BlockScript.cs">
     <Files>
-      <File FileName="Assets/PaddleScript.cs" Line="26" Column="4" />
-      <File FileName="Assets/BallScript.cs" Line="41" Column="4" />
+      <File FileName="Assets/Scripts/BlockScript.cs" Line="39" Column="31" />
+      <File FileName="Assets/Scripts/GameVars.cs" Line="30" Column="2" />
+      <File FileName="Assets/Scripts/ScoreScript.cs" Line="26" Column="15" />
+      <File FileName="Assets/Scripts/BallsLeftScript.cs" Line="10" Column="68" />
+      <File FileName="Assets/Scripts/BallScript.cs" Line="17" Column="3" />
+      <File FileName="Assets/PurpleBrickExtraLife.cs" Line="14" Column="3" />
+      <File FileName="Assets/AddBricks.cs" Line="17" Column="16" />
+      <File FileName="Assets/Scripts/PaddleScript.cs" Line="33" Column="56" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
