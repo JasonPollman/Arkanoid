@@ -1,15 +1,23 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BlockScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScoreScriptGO.cs">
     <Files>
-      <File FileName="Assets/Scripts/BlockScript.cs" Line="39" Column="31" />
-      <File FileName="Assets/Scripts/GameVars.cs" Line="30" Column="2" />
-      <File FileName="Assets/Scripts/ScoreScript.cs" Line="26" Column="15" />
-      <File FileName="Assets/Scripts/BallsLeftScript.cs" Line="10" Column="68" />
-      <File FileName="Assets/Scripts/BallScript.cs" Line="17" Column="3" />
-      <File FileName="Assets/PurpleBrickExtraLife.cs" Line="14" Column="3" />
-      <File FileName="Assets/AddBricks.cs" Line="17" Column="16" />
-      <File FileName="Assets/Scripts/PaddleScript.cs" Line="33" Column="56" />
+      <File FileName="Assets/Scripts/PlayAgain.cs" Line="21" Column="1" />
+      <File FileName="Assets/Scripts/PaddleScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BallScriptGO.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ScoreScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/AddBricks.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameVars.cs" Line="14" Column="1" />
+      <File FileName="Assets/Scripts/BallScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BlockScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/WallScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/QuitGame.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BallsLeftScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LevelIndicator.cs" Line="1" Column="1" />
+      <File FileName="Assets/NGUI/Scripts/Editor/UIPanelTool.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/WallScriptGO.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/YellowBrickUpgrade.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ScoreScriptGO.cs" Line="4" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

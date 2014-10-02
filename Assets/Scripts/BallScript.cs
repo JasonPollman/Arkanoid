@@ -5,46 +5,35 @@ using System.Collections;
 [RequireComponent(typeof(AudioSource))]
 public class BallScript : MonoBehaviour {
 
-	private bool    ballIsActive;
+	public bool ballIsActive;
 	private Vector3 ballPosition;
 	private Vector2 ballInitialForce;
-
 	public GameObject playerObject;
+
 	// Use this for initialization
 	void Start () {
-		// create the force
-		ballInitialForce = GameVars.ballForce;
-		
-		// set to inactive
+
 		ballIsActive = false;
-		
-		// ball position
 		ballPosition = transform.position;
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		// check for user input
-		if (Input.GetButtonDown ("Jump") == true) {
-			// check if is the first play
+	void FixedUpdate () {
+
+		if (Input.GetKeyDown(KeyCode.S) == true) {
+
 			if (!ballIsActive){
-				// reset the force
+
 				rigidbody2D.isKinematic = false;
-				
-				// add a force
-				rigidbody2D.AddForce(ballInitialForce);
-				
-				// set ball active
+				rigidbody2D.AddForce(GameVars.getBallForce * rigidbody2D.mass);
+
 				ballIsActive = !ballIsActive;
 			}
 		}
 		
 		if (!ballIsActive && playerObject != null){
-			
-			// get and use the player position
+
 			ballPosition.x = playerObject.transform.position.x;
-			
-			// apply player X position to the ball
 			transform.position = ballPosition;
 		}
 		
